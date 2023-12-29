@@ -1,14 +1,28 @@
-# Encrypto-
-A program in python for encrypting files in python to keep them safer if u for example wanna delete a file and dont want it some one to find it because as you should know deleting software isn't safe because it can be brought back becuase the file gets marked as free space but still can get back and if you don't want that to happen the use Encrypto++ to encrypt the files befor deleting
+# Encrypto++
+Encrypto++ is a Python program that allows you to encrypt and decrypt files using the Fernet encryption algorithm from the cryptography package. This program provides a graphical user interface (GUI) that allows you to select files or directories to encrypt or decrypt, generate encryption keys, and save or load encryption keys.
+Installation
+To use Encrypto++, you need to have Python 2.7, Python 3.4+, or PyPy 5.3+ installed on your computer. You also need to install the cryptography and tk package using the following command:
+pip install cryptography
+pip install tk
 
-# safety
-Encrypto++ is very safe and it is impossible to decrypt without key even if they try brutte force it and even then they need about 2^2285 years and being honest people lose interest after 1 day 
+## Encrypto++ 1.1
+New update!
 
-# Encryption
-as you can see in the file it uses fernet as encryption and it uses Symmetric-key algorithm
+New things:
+-New Gui
+-New theme
+-Fix Encryption on Folders
+-Fix Decryption on Folders
 
-# Educational and safety purpose
-the software is not for malicious purpose it's for safety and educational purpose and so i don't take responsible for what you do with it
-
-# for any question or feature ideas
-you have a question or a feature idea or something else? then contact me on reddit: pixelcyber
+## Usage
+To run Encrypto++, simply run the encrypto.py file using Python. This will open the GUI window, where you can perform the following actions:
+-Generate a new encryption key by clicking the "dice" button.
+-Load an existing encryption key by clicking the "Load Key" button.
+-Save the current encryption key by clicking the "Save Key" button.
+-Select a file or directory to encrypt or decrypt by clicking the "file" or "folder" buttons.
+-Encrypt the selected file or directory by clicking the "Encrypt" button.
+-Decrypt the selected file or directory by clicking the "Decrypt" button.
+## Security
+this program is extremly secure and almost impossible to crack without the key. no on can get back the original file if the key is gone.and if you would brutte force it then it would take some million years.
+## Contributing
+If you find any issues with Encrypto++, please report them on Reddit repository Reddit:Pixelcyber. new feature ideas and question for help are also welcome.
